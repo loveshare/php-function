@@ -19,3 +19,20 @@ ucenter 作为用户中心 保存用户信息
 - [ ] 用户信息修改同步问题。（可接收）
 
 - [ ] 密码同步问题（可接收）
+
+## 示例代码
+```html
+<!--登录页面-->
+<script src="http://www.a.com/test.php"></script>
+```
+
+```php
+<?php
+  // 设置 cookie 和 查看cookie
+  if($_GET['id'] == 1){
+      print_r($_COOKIE);
+      exit;
+  }
+  header('P3P: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"');
+  setcookie("test", 111, time()+3600);
+```
