@@ -36,3 +36,8 @@ ucenter 作为用户中心 保存用户信息
   header('P3P: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"');
   setcookie("test", 111, time()+3600);
 ```
+
+## 注：
+部分浏览器可能会有问题</br>
+ie8测试是可以通过好多说会有问题,如果有问题可以设置 XDomainRequestAllowed = 1 </br>
+safari 需要设置一下</br>
