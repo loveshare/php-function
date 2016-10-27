@@ -43,3 +43,6 @@ ucenter 作为用户中心 保存用户信息
 部分浏览器可能会有问题</br>
 ie8测试是可以通过好多说会有问题,如果有问题可以设置 XDomainRequestAllowed = 1 </br>
 safari 需要设置一下,也可以试一下post提交来实现体验不是很好，增加提示或者抛弃他们</br>
+safari 有些奇怪 可以参考 http://www.cnblogs.com/qidian10/p/3316410.html</br>
+safari 使用js加载 设置页面无反应，使用iframe可以 但是需要触发才可以设置cookie，打开目标网页或者目标网页已经有了cookie。</br>
+safari 问题不是很好解决。
