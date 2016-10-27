@@ -40,4 +40,4 @@ ucenter 作为用户中心 保存用户信息
 ## 注：
 部分浏览器可能会有问题</br>
 ie8测试是可以通过好多说会有问题,如果有问题可以设置 XDomainRequestAllowed = 1 </br>
-safari 需要设置一下</br>
+safari 需要设置一下,也可以试一下post提交来实现体验不是很好，增加提示或者抛弃他们</br>
